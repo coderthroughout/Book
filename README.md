@@ -1,93 +1,46 @@
 # My Book Library
 
-Welcome to **My Book Library**, a dynamic web application that allows users to search for books, view details, and save their favorite books to a personal library.
+A simple web application to search for books using the Google Books API and manage a personal library.
 
 ## Features
-
-- **Book Search**: Users can search for books by title or author using the Google Books API.
-- **View Book Details**: Display book thumbnails, titles, and author details.
-- **Add to Library**: Save favorite books to a personalized library.
-- **View My Library**: Access saved books in the "My Library" section.
-- **Responsive Design**: The application is responsive and user-friendly across all devices.
+- **Search Books**: Find books by title or author.
+- **Add to Library**: Save your favorite books to your personal library.
+- **View Library**: Access and manage your saved books.
 
 ## Technologies Used
-
-- **HTML5**: For structuring the web pages.
-- **CSS3**: For styling the application.
-- **JavaScript**: To handle API requests, DOM manipulation, and user interactions.
-- **Google Books API**: For fetching book information based on user queries.
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- [Google Books API](https://developers.google.com/books/docs/v1/using)
 
 ## Getting Started
 
 ### Prerequisites
-
-Ensure you have a modern web browser like Google Chrome, Firefox, or Edge.
+- A modern web browser (e.g., Chrome, Firefox, Edge)
 
 ### Installation
-
-1. **Clone the repository:**
-
+1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/my-book-library.git
+   git clone https://github.com/your-username/my-book-library.git
+   ```
+2. Navigate to the project directory:
+   ```bash
    cd my-book-library
    ```
-
-2. **Open the project:**
-
-   Open `index.html` in your preferred browser.
-
-### File Structure
-
-```
-my-book-library/
-├── index.html      # Main HTML file
-├── styles.css      # CSS file for styling
-├── script.js       # JavaScript file for functionality
-└── README.md       # Project documentation
-```
+3. Open `index.html` in your preferred web browser.
 
 ## Usage
-
-1. **Search for Books:**
-   - Enter a book title or author in the search bar.
-   - Click the **Search** button to fetch results from the Google Books API.
-
-2. **Add to Library:**
-   - Click the **Add to Library** button under any book to save it to your library.
-
-3. **View My Library:**
-   - Click the **My Library** link in the navigation bar to view saved books.
-
-## Screenshots
-
-### Home Page
-![Home Page](screenshots/home.png)
-
-### Search Results
-![Search Results](screenshots/search-results.png)
-
-### My Library
-![My Library](screenshots/my-library.png)
+1. Enter a book title or author in the search bar.
+2. Click the "Search" button to display results.
+3. Click "Add to Library" to save a book.
+4. Navigate to "My Library" to view your saved books.
 
 ## Contributing
-
-Contributions are welcome! Feel free to open issues or submit pull requests.
-
-1. Fork the repository.
-2. Create your feature branch: `git checkout -b feature/YourFeature`
-3. Commit your changes: `git commit -m 'Add YourFeature'`
-4. Push to the branch: `git push origin feature/YourFeature`
-5. Open a pull request.
+Contributions are welcome! Please fork the repository and submit a pull request.
 
 ## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- [Google Books API](https://developers.google.com/books)
-- Inspired by the need for a personal and easy-to-use online book library.
+This project is licensed under the MIT License.
 
 ---
 
-Enjoy your personalized book library experience! 📚
+Enjoy exploring and building your personal library! 📚
