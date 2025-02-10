@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function searchBooks(query) {
-    const apiKey = 'AIzaSyB7TPy6qAycFg7KD4anxjJMxtdG15tMNaA'; // Replace with your real API key
+    const apiKey = 'Please enter your google api as this will only work through it'; // Replace with your real API key
     const url = `https://www.googleapis.com/books/v1/volumes?q=${encodeURIComponent(query)}&key=${apiKey}`;
 
     fetch(url)
